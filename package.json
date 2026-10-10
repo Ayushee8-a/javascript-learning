@@ -1,0 +1,10 @@
+{
+  "name": "javascript-learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small JavaScript learning workspace covering basics and math examples.",
+  "scripts": {
+    "start": "node 01_Chapter_JS_Basics.js",
+    "math": "node 02_math.js"
+  }
+}
