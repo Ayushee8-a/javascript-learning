@@ -1,0 +1,35 @@
+//Practice 1:Remove char from string
+console.log("Practice 1: Remove char from string");
+{
+let s = "banana";
+let ch = "n";
+
+const result = s.split(ch).join('');
+console.log(result);
+
+/*
+- split() breaks a string into pieces.
+- join() combines those pieces into a string again.
+Together, split(ch).join('') removes all occurrences of ch from the original string.
+*/
+}
+
+//Practice 2: Remove a from apple
+console.log("Practice 2: Remove a from apple");
+{
+let s = "apple";
+let ch = "a";
+
+const result = s.split(ch).join('');
+console.log(result);
+}
+
+//Practice 3: Remove o from hello world
+console.log("Practice 3: Remove o from hello world");
+{
+let s = "hello world";
+let ch = "o";
+
+const result = s.split(ch).join('');
+console.log(result);
+}
